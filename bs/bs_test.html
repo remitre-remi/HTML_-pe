@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <style>
+      .jumbo {
+        background-image: url("https://picsum.photos/id/1025/1200/400");
+        background-size: cover;
+        background-position: center;
+        min-height: 200px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-4">
+      <!-- Lehe peamine pealkiri -->
+      <h1 class="mb-4">Veebibeebi.ee</h1>
+
+      <!-- Hero / jumbotron -->
+      <div class="p-5 mb-4 bg-body-tertiary jumbo d-flex flex-column justify-content-end rounded">
+        <h2 class="mb-2">Tere tulemast</h2>
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquid ipsa officiis ex quos
+          repudiandae eveniet perferendis at unde quaerat odit, qui libero.
+        </p>
+      </div>
+
+      <!-- Kaardid -->
+      <div class="card-group" id="cards">
+        <div class="card">
+          <img src="https://picsum.photos/seed/1/600/300" class="card-img-top" alt="Näidisfoto 1">
+          <div class="card-body">
+            <!-- Semantiliselt h2 (või h3), visuaalselt .h5 -->
+            <h2 class="card-title h5">Card title</h2>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://picsum.photos/seed/2/600/300" class="card-img-top" alt="Näidisfoto 2">
+          <div class="card-body">
+            <h2 class="card-title h5">Card title</h2>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://picsum.photos/seed/3/600/300" class="card-img-top" alt="Näidisfoto 3">
+          <div class="card-body">
+            <h2 class="card-title h5">Card title</h2>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle (JS + Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+  </body>
+</html>
